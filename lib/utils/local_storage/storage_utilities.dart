@@ -9,7 +9,7 @@ class MLocalStorage {
   static const String _userDataKey = 'userData';
 
   // Initialize SharedPreferences
-  static Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
+  static final Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
 
   // Save boolean value to local storage
   static Future<bool> setIsLoggedIn(bool value) async {
@@ -45,10 +45,7 @@ class MLocalStorage {
   static Future<Map<String, dynamic>?> getUserData() async {
     final prefs = await _prefs;
     String? jsonString = prefs.getString(_userDataKey);
-    if (jsonString != null) {
-      return jsonDecode(jsonString);
-    }
-    return null;
+    return jsonDecode(jsonString!);
   }
 
   // Remove a specific value from local storage

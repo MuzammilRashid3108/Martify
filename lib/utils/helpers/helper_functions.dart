@@ -39,4 +39,14 @@ class MHelperFunctions {
     if (input.isEmpty) return '';
     return '${input[0].toUpperCase()}${input.substring(1)}';
   }
+
+  // Get screen height
+  static double ScreenHeight(BuildContext context) {
+    return MediaQuery.of(context).size.height;
+  }
+
+  // Get screen width
+  static double ScreenWidth(BuildContext context) {
+    return MediaQuery.of(context).size.width;
+  }
 }

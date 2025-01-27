@@ -8,6 +8,7 @@ class MAppSizes {
   static const double paddingSmall = 8.0;
   static const double paddingMedium = 16.0;
   static const double paddingLarge = 24.0;
+  static const double paddingExLarge = 32.0;
 
   // Font Sizes
   static const double fontSmall = 12.0;
@@ -26,9 +27,9 @@ class MAppSizes {
 
   // Heights
   static const double buttonHeight = 48.0;
-  static const double appBarHeight = 56.0;
+  static const double appBarHeight = 100.0;
 
-  // Custom Sizes
+  // Custom Sizesd
   static const double custom1 = 40.0;
   static const double custom2 = 64.0;
 }

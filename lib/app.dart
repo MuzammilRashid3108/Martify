@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:martify/features/authentication/screens/on_boarding/on_boarding.dart';
 import 'package:martify/utils/theme/theme.dart';
 
 
@@ -7,12 +9,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: MAppTheme.lightTheme,
-      darkTheme: MAppTheme.lightTheme,
-      home: Scaffold(),
+      darkTheme: MAppTheme.darkTheme,
+      home:const OnBoarding()
     );
   }
 }
