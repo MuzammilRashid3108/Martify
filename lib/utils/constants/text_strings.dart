@@ -13,12 +13,25 @@ class MAppTextStrings {
   static const String signinOptions = 'or sign in with';
   static const String createAccount = 'Create Account';
   static const String forgotPassword = 'Forgot Password?';
-  static const String enterEmail = 'Enter your email address';
+  static const String verifyEmail = 'Verify your email address!';
   static const String enterPassword = 'Enter your password';
   static const String email = 'E-Mail';
   static const String password = 'Password';
   static const String rememberMe = 'Remember Me';
-
+  static const String signupTitle = "Let's create your account";
+  static const String firstName = "First Name";
+  static const String lastName = "Last name";
+  static const String username = "User Name";
+  static const String iAgreeTo = "I agree to";
+  static const String phoneNumber = "Phone Number";
+  static const String and = "and";
+  static const String privacyPolicy = "Privacy Policy";
+  static const String termsOfUse = "Terms of use";
+  static const String mcontinue = "Continue";
+  static const String resendEmail = "Resend Email";
+  static const String confirmEmailSubtitle = "Congratulations! Your Account Awaits Verify Your Email to Start Shopping and Experience a World of Unreleased deals and Personalized Offers.";
+  
+  
 
   // Home Screen
   static const String homeTitle = 'Home';
@@ -36,19 +49,21 @@ class MAppTextStrings {
   static const String serverError = 'Server error occurred';
   static const String invalidCredentials = 'Invalid username or password';
 
-  //OnBoarding 
+  //OnBoarding
   static const String onBoardingTitle = 'Choose Your Product';
-  static const String onBoardingSubTitle = 'Welcome To a World of Limitless Choices - Your Perfect Product Awaits';
+  static const String onBoardingSubTitle =
+      'Welcome To a World of Limitless Choices - Your Perfect Product Awaits';
 
   static const String onBoardingTitle2 = 'Select Your Payment Method';
-  static const String onBoardingSubTitle2 = 'For Seemless Transactions Choose Your Payment Path - Your Convenience Our Priority';
+  static const String onBoardingSubTitle2 =
+      'For Seemless Transactions Choose Your Payment Path - Your Convenience Our Priority';
 
   static const String onBoardingTitle3 = 'Delivery at Your Door Step';
-  static const String onBoardingSubTitle3 = 'From Our DoorStep to Yours - Swift, Secure and Contactless Delivery!';
+  static const String onBoardingSubTitle3 =
+      'From Our DoorStep to Yours - Swift, Secure and Contactless Delivery!';
 
   //Login
   static const String loginTitle = 'Welocme Back,';
-  static const String loginSubTitle = 'Discover Limitless Choices and Unmatched Convenience.';
-
+  static const String loginSubTitle =
+      'Discover Limitless Choices and Unmatched Convenience.';
 }
-

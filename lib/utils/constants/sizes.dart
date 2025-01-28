@@ -3,6 +3,7 @@ class MAppSizes {
   static const double marginSmall = 8.0;
   static const double marginMedium = 16.0;
   static const double marginLarge = 24.0;
+  static const double marginMinLarge = 20.0;
 
   // Paddings
   static const double paddingSmall = 8.0;

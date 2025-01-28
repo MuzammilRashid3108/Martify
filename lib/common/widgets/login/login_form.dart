@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:martify/utils/constants/sizes.dart';
 import 'package:martify/utils/constants/text_strings.dart';
+import 'package:martify/utils/controllers/on_boarding_controllers.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -70,7 +71,9 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () {
+                  OnBoardingControllers.instance.signupPage();
+                },
                 child: const Text(MAppTextStrings.createAccount),
               ),
             ),
