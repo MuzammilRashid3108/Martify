@@ -50,7 +50,9 @@ class LoginForm extends StatelessWidget {
                   ],
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    OnBoardingControllers.instance.forgetPasswordPage();
+                  },
                   child: const Text(MAppTextStrings.forgotPassword),
                 ),
               ],

@@ -13,6 +13,8 @@ class MAppTextStrings {
   static const String signinOptions = 'or sign in with';
   static const String createAccount = 'Create Account';
   static const String forgotPassword = 'Forgot Password?';
+  static const String forgetPassword = 'Forget password';
+  static const String forgetPasswordSubTitle = "Enter your registered email address, and we'll send you a link to reset your password.";
   static const String verifyEmail = 'Verify your email address!';
   static const String enterPassword = 'Enter your password';
   static const String email = 'E-Mail';
@@ -25,11 +27,19 @@ class MAppTextStrings {
   static const String iAgreeTo = "I agree to";
   static const String phoneNumber = "Phone Number";
   static const String and = "and";
+  static const String submit = "Submit";
+  static const String confirmEmailSubtitle = "Congratulations! Your Account Awaits Verify Your Email to Start Shopping and Experience a World of Unreleased deals and Personalized Offers.";
+  static const String accountCongratsSubtitle = "Welcome to your Unlimited Shopping Destination Your Account is Created Unleash the Joy of Seamless Online Shopping!";
+  static const String passwordResetEmailSubTitle = "We've sent a password reset link to your email. Please check your inbox and follow the instructions to reset your password.";
+  static const String accountCongratsTitle = "Your account successfully created!";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms of use";
   static const String mcontinue = "Continue";
   static const String resendEmail = "Resend Email";
-  static const String confirmEmailSubtitle = "Congratulations! Your Account Awaits Verify Your Email to Start Shopping and Experience a World of Unreleased deals and Personalized Offers.";
+  static const String done = "Done";
+  static const String passwordResetEmailTitle = "Password Reset Email Sent";
+  static const String myEmail = "muzammilrashid3108@gmail.com";
+
   
   
 

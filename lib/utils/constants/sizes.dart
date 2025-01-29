@@ -33,4 +33,5 @@ class MAppSizes {
   // Custom Sizesd
   static const double custom1 = 40.0;
   static const double custom2 = 64.0;
+  static const double custom3 = 56.0;
 }

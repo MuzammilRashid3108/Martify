@@ -8,4 +8,10 @@ class MSpacingStyles {
     left: MAppSizes.marginMinLarge,
     right: MAppSizes.marginMinLarge,
   );
+  static const EdgeInsetsGeometry successScreenPaddingStyle= EdgeInsets.only(
+    top: MAppSizes.custom3,
+    bottom: MAppSizes.marginMinLarge,
+    left: MAppSizes.marginMinLarge,
+    right: MAppSizes.marginMinLarge,
+  );
 }

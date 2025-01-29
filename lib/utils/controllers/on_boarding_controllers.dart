@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:martify/features/authentication/screens/login/forget_password/forget_password_screen.dart';
 import 'package:martify/features/authentication/screens/login/login_screen.dart';
+import 'package:martify/features/authentication/screens/login/password_reset_email/password_reset_email_screen.dart';
 import 'package:martify/features/authentication/screens/signup/signup_screen.dart';
+import 'package:martify/features/authentication/screens/signup/success/success_screen.dart';
 import 'package:martify/features/authentication/screens/signup/verify_email/verify_email_screen.dart';
 
 class OnBoardingControllers extends GetxController {
@@ -42,6 +45,15 @@ class OnBoardingControllers extends GetxController {
   }
   void loginpage() {
     Get.to(const LoginScreen());
+  }
+   void successPage() {
+    Get.to(const SuccessScreen());
+  }
+  void forgetPasswordPage() {
+    Get.to(const ForgetPasswordScreen());
+  }
+   void passwordResetEmailPage() {
+    Get.to(const PasswordResetEmailScreen());
   }
 }
 
