@@ -63,7 +63,9 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  OnBoardingControllers.instance.navigationMenupage();
+                },
                 child: const Text(MAppTextStrings.signin),
               ),
             ),

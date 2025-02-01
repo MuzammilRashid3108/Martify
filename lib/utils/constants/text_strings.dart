@@ -48,6 +48,8 @@ class MAppTextStrings {
   static const String explore = 'Explore';
   static const String notifications = 'Notifications';
   static const String profile = 'Profile';
+  static const String homeAppBarTitle = 'Good Day For Shopping';
+  static const String homeAppBarSubTitle = 'Martify';
 
   // Profile Screen
   static const String editProfile = 'Edit Profile';

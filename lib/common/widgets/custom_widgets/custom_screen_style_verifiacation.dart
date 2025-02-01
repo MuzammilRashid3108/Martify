@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:martify/common/widgets/custom_widgets/custom_button.dart';
-import 'package:martify/utils/constants/image_strings.dart';
 import 'package:martify/utils/constants/sizes.dart';
-import 'package:martify/utils/constants/text_strings.dart';
 import 'package:martify/utils/controllers/on_boarding_controllers.dart';
 import 'package:martify/utils/helpers/helper_functions.dart';
 

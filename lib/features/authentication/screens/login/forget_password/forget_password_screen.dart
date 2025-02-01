@@ -1,10 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:martify/common/widgets/custom_widgets/custom_button.dart';
+import 'package:martify/utils/constants/colors.dart';
 import 'package:martify/utils/constants/sizes.dart';
 import 'package:martify/utils/constants/text_strings.dart';
-
+import 'package:martify/utils/helpers/helper_functions.dart';
 import '../../../../../utils/controllers/on_boarding_controllers.dart';
 
 class ForgetPasswordScreen extends StatefulWidget {
@@ -17,19 +17,12 @@ class ForgetPasswordScreen extends StatefulWidget {
 class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
   @override
   Widget build(BuildContext context) {
+    final dark = MHelperFunctions.isDarkMode(context);
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
-        actions: [
-          Padding(
-            padding: const EdgeInsets.all(MAppSizes.marginSmall),
-            child: IconButton(
-                onPressed: () {
-                  OnBoardingControllers.instance.loginpage();
-                },
-                icon: const Icon(CupertinoIcons.clear)),
-          )
-        ],
+        iconTheme: IconThemeData(
+          color: dark ? MAppColors.dark : MAppColors.light
+        ),
       ),
       body: SingleChildScrollView(
         child: Padding(

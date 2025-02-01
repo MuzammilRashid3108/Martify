@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:martify/utils/constants/colors.dart';
-import 'package:martify/utils/constants/text_strings.dart';
 
 class CustomDevider extends StatelessWidget {
   const CustomDevider({

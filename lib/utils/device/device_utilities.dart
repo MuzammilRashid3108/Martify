@@ -40,4 +40,8 @@ class MDeviceUtils {
   static double getBottomNavBarHeight(BuildContext context) {
     return MediaQuery.of(context).padding.bottom;
   }
+
+  static double getAppBarHeight() {
+    return kToolbarHeight; 
+  }
 }

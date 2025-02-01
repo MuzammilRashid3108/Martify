@@ -6,6 +6,7 @@ import 'package:martify/features/authentication/screens/login/password_reset_ema
 import 'package:martify/features/authentication/screens/signup/signup_screen.dart';
 import 'package:martify/features/authentication/screens/signup/success/success_screen.dart';
 import 'package:martify/features/authentication/screens/signup/verify_email/verify_email_screen.dart';
+import 'package:martify/features/shop/screens/nav_menu/navigation_menu_screen.dart';
 
 class OnBoardingControllers extends GetxController {
   static OnBoardingControllers get instance => Get.find();
@@ -17,14 +18,19 @@ class OnBoardingControllers extends GetxController {
     currentPageIndex.value = index;
   }
 
+  void animateToPageWithIndex(int index){
+    pageController.animateToPage(index, duration: Duration(milliseconds: 700), curve: Curves.easeInOut);
+  }
+
   void dotnavigationClick(index) {
     currentPageIndex.value = index;
-    pageController.jumpToPage(index);
+    animateToPageWithIndex(index);
   }
 
   void skipPage() {
     currentPageIndex.value = 2;
-    pageController.jumpToPage(2);
+        animateToPageWithIndex(2);
+
   }
 
   void nextpage() {
@@ -32,7 +38,8 @@ class OnBoardingControllers extends GetxController {
       Get.to(const LoginScreen());
     } else {
       int page = currentPageIndex.value + 1;
-      pageController.jumpToPage(page);
+          animateToPageWithIndex(page);
+
     }
   }
 
@@ -55,5 +62,9 @@ class OnBoardingControllers extends GetxController {
    void passwordResetEmailPage() {
     Get.to(const PasswordResetEmailScreen());
   }
+   void navigationMenupage() {
+    Get.to(const NavigationMenuScreen());
+  }
+  
 }
 
