@@ -19,7 +19,7 @@ class OnBoardingControllers extends GetxController {
   }
 
   void animateToPageWithIndex(int index){
-    pageController.animateToPage(index, duration: Duration(milliseconds: 700), curve: Curves.easeInOut);
+    pageController.animateToPage(index, duration: Duration(milliseconds: 350), curve: Curves.easeInOut);
   }
 
   void dotnavigationClick(index) {
@@ -44,7 +44,8 @@ class OnBoardingControllers extends GetxController {
   }
 
   void signupPage() {
-    Get.to(const SignupScreen());
+    print("h");
+    Get.to(const SignupScreen(), transition: Transition.zoom, duration: Duration(milliseconds: 300));
   }
 
   void verifyEmailPage() {

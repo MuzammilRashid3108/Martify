@@ -11,8 +11,10 @@ class CurvedEdgesStyle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipPath(
+
       clipper: CurvedEdges(),
-      child: child
+      child: Container(
+        child: child)
     );
   }
 }

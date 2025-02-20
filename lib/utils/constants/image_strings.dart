@@ -12,4 +12,10 @@ class MAppImages {
   static const String apple = 'assets/images/apple.png';
   static const String facebook = 'assets/images/facebook.png';
 
+  //Banners
+
+  static const String promoBanner1 = 'assets/images/banners/rolex-banner.jpg';
+  static const String promoBanner2 = 'assets/images/banners/banner-12.jpg';
+  static const String promoBanner3 = 'assets/images/banners/banner-y.jpg';
+
 }
